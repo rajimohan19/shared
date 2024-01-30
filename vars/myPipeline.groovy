@@ -29,7 +29,7 @@ def call() {
             stage('Docker Build Images') {
                 steps {
                     script {
-                        sh 'docker build -t rajimohan19/shared_library:v1 .'
+                        sh 'docker build -t rajimohan19/shared_library:v2 .'
                         sh 'docker images'
                         sh 'docker ps'
                     }
